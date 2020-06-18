@@ -1,4 +1,4 @@
-#dictionary is coolection of key-value pairs
+#dictionary is collection of key-value pairs
 
 students = { "key1":"value1" ,"key2":"value2","key3":"value3" } #general syntax of dictionary
 print(students)
@@ -58,6 +58,26 @@ print("__"*40)
 for value in color.values():
     print(value)
 
-print("__"*40)    
+print("__"*40)
+
+persons = {"Allison":18 , "Benson":48 , "Paul":28 , "Erik":20, "Grace":25}
+print(persons)
+
+persons["stuart"]=98
+print(persons)
+
+#when we add entries in dictionary order is not maintained
+#order is random
+
+#key must be initialized = ""
+
+persons[""] = 34
+print(persons)
+
+#why dict is so important data structure
+#dictionary lookup is very fast
+
+if "Paul" in persons.keys():   #membership
+    print("paul's age",persons["Paul"])
 
 
