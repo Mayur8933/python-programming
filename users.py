@@ -1,4 +1,4 @@
-class user:
+class User:
 
     def __init__(self,first_name,last_name,login_attempts):
         self.first_name = first_name
@@ -28,7 +28,7 @@ class user:
         print(f"Reset the Login attempts :{reset}\n")
 
 
-first_user = user("James","Smith",2)
+first_user = User("James","Smith",2)
 first_user.greet_user()
 first_user.describe_user()
 first_user.increment_login_attempts()
@@ -36,7 +36,7 @@ first_user.increment_login_attempts()
 first_user.increment_login_attempts()
 first_user.reset_login_attempts(0)
 
-second_user = user("Michael","Smith",4)
+second_user = User("Michael","Smith",4)
 second_user.greet_user()
 second_user.describe_user()
 second_user.increment_login_attempts()
@@ -45,7 +45,7 @@ second_user.increment_login_attempts()
 second_user.reset_login_attempts(0)
 
 
-third_user = user("Robert","Smith",3)
+third_user = User("Robert","Smith",3)
 third_user.greet_user()
 third_user.describe_user()
 third_user.increment_login_attempts()
