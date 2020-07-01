@@ -1,0 +1,10 @@
+Python is high-level programming language.
+Python is interprted language.
+Python is object oriented programming laanguage.
+Python is dynamic typing and binding.
+Everything in Python is object.
+Python has various types of built-in datatypes.
+Python is very flexible.
+Learning python is fun.
+
+
