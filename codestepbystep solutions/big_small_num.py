@@ -7,9 +7,7 @@ for i in range(num):
         big = num2
     else:
         small = num2
-print("big",big)
-print("small",small)
-
-
+print("big", big)
+print("small", small)
 
 
